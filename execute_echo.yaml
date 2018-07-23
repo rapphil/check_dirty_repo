@@ -1,0 +1,5 @@
+- hosts: some-machine
+  tasks:
+    - name: "Testing task"
+      debug:
+        msg: "Executing test task"
